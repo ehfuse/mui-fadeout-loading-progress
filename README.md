@@ -47,11 +47,11 @@ export function LoadingProgress(
 ## Quick Start
 
 ```bash
-npm install mui-fadeout-loading-progress
+npm install @ehfuse/mui-fadeout-loading-progress
 ```
 
 ```tsx
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -73,6 +73,6 @@ MIT License - Copyright (c) 2025 KIM YOUNG JIN (ehfuse@gmail.com)
 
 ## Links
 
--   **Repository**: [github.com/ehfuse/mui-fadeout-loading-progress](https://github.com/ehfuse/mui-fadeout-loading-progress)
--   **Issues**: [Issue Tracker](https://github.com/ehfuse/mui-fadeout-loading-progress/issues)
--   **NPM**: [npmjs.com/package/mui-fadeout-loading-progress](https://www.npmjs.com/package/mui-fadeout-loading-progress)
+-   **Repository**: [github.com/ehfuse/@ehfuse/mui-fadeout-loading-progress](https://github.com/ehfuse/@ehfuse/mui-fadeout-loading-progress)
+-   **Issues**: [Issue Tracker](https://github.com/ehfuse/@ehfuse/mui-fadeout-loading-progress/issues)
+-   **NPM**: [npmjs.com/package/@ehfuse/mui-fadeout-loading-progress](https://www.npmjs.com/package/@ehfuse/mui-fadeout-loading-progress)

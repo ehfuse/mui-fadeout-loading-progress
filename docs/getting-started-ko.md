@@ -5,13 +5,13 @@ MUI Fadeout Loading Progress 컴포넌트 사용 가이드입니다.
 ## 설치
 
 ```bash
-npm install mui-fadeout-loading-progress
+npm install @ehfuse/mui-fadeout-loading-progress
 ```
 
 또는
 
 ```bash
-yarn add mui-fadeout-loading-progress
+yarn add @ehfuse/mui-fadeout-loading-progress
 ```
 
 ## Peer Dependencies
@@ -28,7 +28,7 @@ npm install react @mui/material @emotion/react @emotion/styled
 
 ```tsx
 import React, { useState } from "react";
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -55,7 +55,7 @@ export default App;
 
 ```tsx
 import React, { useState } from "react";
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -161,7 +161,7 @@ interface LoadingProgressProps {
 
 ```tsx
 import React, { useState, useEffect } from "react";
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function UserProfile() {
     const [loading, setLoading] = useState(true);
@@ -197,7 +197,7 @@ function UserProfile() {
 
 ```tsx
 import React, { useState } from "react";
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function Dashboard() {
     const [isInitializing, setIsInitializing] = useState(true);
@@ -226,7 +226,7 @@ function Dashboard() {
 ### 커스텀 애니메이션 타이밍
 
 ```tsx
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -247,7 +247,7 @@ function App() {
 ### 커스텀 크기
 
 ```tsx
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -264,7 +264,7 @@ function App() {
 ### 배경 설정 - 표시/숨김
 
 ```tsx
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -281,7 +281,7 @@ function App() {
 ### 배경 설정 - 색상 및 투명도
 
 ```tsx
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -325,7 +325,7 @@ function App() {
 ### 커스텀 스타일링
 
 ```tsx
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -348,7 +348,7 @@ function App() {
 ### 커스텀 인디케이터 (ReactNode)
 
 ```tsx
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 import { CircularProgress, Box } from "@mui/material";
 
 function App() {
@@ -372,7 +372,7 @@ function App() {
 ### 이미지 인디케이터 (URL)
 
 ```tsx
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -392,7 +392,7 @@ function App() {
 ### 스피너 애니메이션이 있는 커스텀 컴포넌트
 
 ```tsx
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 import { keyframes } from "@emotion/react";
 import { Box } from "@mui/material";
 
@@ -454,8 +454,8 @@ Copyright (c) 2025 KIM YOUNG JIN (ehfuse@gmail.com)
 
 ## 리포지토리
 
-[https://github.com/ehfuse/mui-fadeout-loading-progress](https://github.com/ehfuse/mui-fadeout-loading-progress)
+[https://github.com/ehfuse/@ehfuse/mui-fadeout-loading-progress](https://github.com/ehfuse/@ehfuse/mui-fadeout-loading-progress)
 
 ## 이슈
 
-문제가 발생하거나 제안 사항이 있으면 [이슈 트래커](https://github.com/ehfuse/mui-fadeout-loading-progress/issues)에 등록해 주세요.
+문제가 발생하거나 제안 사항이 있으면 [이슈 트래커](https://github.com/ehfuse/@ehfuse/mui-fadeout-loading-progress/issues)에 등록해 주세요.

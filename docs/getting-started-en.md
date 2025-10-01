@@ -5,13 +5,13 @@ A comprehensive guide to using the MUI Fadeout Loading Progress component.
 ## Installation
 
 ```bash
-npm install mui-fadeout-loading-progress
+npm install @ehfuse/mui-fadeout-loading-progress
 ```
 
 or
 
 ```bash
-yarn add mui-fadeout-loading-progress
+yarn add @ehfuse/mui-fadeout-loading-progress
 ```
 
 ## Peer Dependencies
@@ -28,7 +28,7 @@ npm install react @mui/material @emotion/react @emotion/styled
 
 ```tsx
 import React, { useState } from "react";
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -55,7 +55,7 @@ export default App;
 
 ```tsx
 import React, { useState } from "react";
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -161,7 +161,7 @@ This component supports all modern browsers that are compatible with:
 
 ```tsx
 import React, { useState, useEffect } from "react";
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function UserProfile() {
     const [loading, setLoading] = useState(true);
@@ -197,7 +197,7 @@ function UserProfile() {
 
 ```tsx
 import React, { useState } from "react";
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function Dashboard() {
     const [isInitializing, setIsInitializing] = useState(true);
@@ -226,7 +226,7 @@ function Dashboard() {
 ### Custom Animation Timing
 
 ```tsx
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -247,7 +247,7 @@ function App() {
 ### Custom Size
 
 ```tsx
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -264,7 +264,7 @@ function App() {
 ### Background Configuration - Show/Hide
 
 ```tsx
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -281,7 +281,7 @@ function App() {
 ### Background Configuration - Color & Opacity
 
 ```tsx
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -325,7 +325,7 @@ function App() {
 ### Custom Styling
 
 ```tsx
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -348,7 +348,7 @@ function App() {
 ### Custom Indicator (ReactNode)
 
 ```tsx
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 import { CircularProgress, Box } from "@mui/material";
 
 function App() {
@@ -372,7 +372,7 @@ function App() {
 ### Image Indicator (URL)
 
 ```tsx
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -392,7 +392,7 @@ function App() {
 ### Custom Component with Spinner Animation
 
 ```tsx
-import { LoadingProgress } from "mui-fadeout-loading-progress";
+import { LoadingProgress } from "@ehfuse/mui-fadeout-loading-progress";
 import { keyframes } from "@emotion/react";
 import { Box } from "@mui/material";
 
@@ -454,8 +454,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Repository
 
-[https://github.com/ehfuse/mui-fadeout-loading-progress](https://github.com/ehfuse/mui-fadeout-loading-progress)
+[https://github.com/ehfuse/@ehfuse/mui-fadeout-loading-progress](https://github.com/ehfuse/@ehfuse/mui-fadeout-loading-progress)
 
 ## Issues
 
-If you encounter any issues or have suggestions, please file them in the [issue tracker](https://github.com/ehfuse/mui-fadeout-loading-progress/issues).
+If you encounter any issues or have suggestions, please file them in the [issue tracker](https://github.com/ehfuse/@ehfuse/mui-fadeout-loading-progress/issues).

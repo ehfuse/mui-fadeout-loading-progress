@@ -1,5 +1,5 @@
 {
-    "name": "mui-fadeout-loading-progress",
+    "name": "@ehfuse/mui-fadeout-loading-progress",
     "version": "1.0.0",
     "description": "A React component for Material-UI that provides a smooth fade-out loading indicator with customizable behavior",
     "main": "dist/index.js",
