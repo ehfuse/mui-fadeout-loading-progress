@@ -25,7 +25,8 @@ export default [
             resolve(),
             typescript({
                 tsconfig: "./tsconfig.json",
-                declaration: false,
+                declaration: true,
+                declarationDir: "./dist/types",
                 exclude: ["**/*.test.ts", "**/*.test.tsx"],
             }),
         ],
