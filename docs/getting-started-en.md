@@ -96,6 +96,7 @@ export default App;
 | `size`            | `number`              | No       | `40`                                                   | Size of the loading indicator in pixels                                                                                            |
 | `className`       | `string`              | No       | -                                                      | CSS class name to apply to the overlay Box                                                                                         |
 | `style`           | `CSSProperties`       | No       | -                                                      | Inline styles to apply to the overlay Box (merged with default styles)                                                             |
+| `sx`              | `SxProps<Theme>`      | No       | -                                                      | MUI sx prop for advanced styling (theme access, responsive styles, pseudo-selectors, etc.)                                         |
 | `indicator`       | `ReactNode \| string` | No       | -                                                      | Custom indicator component or image URL. If string, renders as image; if ReactNode, renders as-is. Default is MUI CircularProgress |
 | `background`      | `BackgroundConfig`    | No       | `{ show: true, color: "255, 255, 255", opacity: 0.9 }` | Background configuration object (see below)                                                                                        |
 
@@ -143,6 +144,7 @@ interface LoadingProgressProps {
     size?: number;
     className?: string;
     style?: CSSProperties;
+    sx?: SxProps<Theme>;
     indicator?: ReactNode | string;
     background?: BackgroundConfig;
 }

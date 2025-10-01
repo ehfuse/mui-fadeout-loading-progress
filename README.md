@@ -30,6 +30,7 @@ interface LoadingProgressProps {
     size?: number; // default: 40
     className?: string;
     style?: CSSProperties;
+    sx?: SxProps<Theme>; // MUI sx prop for advanced styling
     indicator?: ReactNode | string; // Custom indicator or image URL
     background?: BackgroundConfig; // Background configuration
 }

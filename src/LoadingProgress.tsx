@@ -23,7 +23,7 @@
  */
 
 import { CSSProperties, ReactNode, useEffect, useRef, useState } from "react";
-import { Box, CircularProgress } from "@mui/material";
+import { Box, CircularProgress, SxProps, Theme } from "@mui/material";
 
 export interface BackgroundConfig {
     show?: boolean;
@@ -39,6 +39,7 @@ export interface LoadingProgressProps {
     size?: number;
     className?: string;
     style?: CSSProperties;
+    sx?: SxProps<Theme>;
     indicator?: ReactNode | string;
     background?: BackgroundConfig;
 }
@@ -51,6 +52,7 @@ export default function LoadingProgress({
     size = 40,
     className,
     style,
+    sx,
     indicator,
     background = {
         show: true,
@@ -166,6 +168,7 @@ export default function LoadingProgress({
         <Box
             ref={boxRef}
             className={className}
+            style={{ ...style }}
             sx={{
                 position: "absolute",
                 top: 0,
@@ -179,7 +182,7 @@ export default function LoadingProgress({
                 opacity: visible ? 1 : 0,
                 transition: `opacity ${fadeoutDuration}ms ease-out`,
                 ...getBackgroundStyle(),
-                ...style,
+                ...sx,
             }}
         >
             {renderIndicator()}

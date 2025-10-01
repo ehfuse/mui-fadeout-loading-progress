@@ -96,6 +96,7 @@ export default App;
 | `size`            | `number`              | No   | `40`                                                   | 로딩 인디케이터의 크기 (픽셀)                                                                                                                    |
 | `className`       | `string`              | No   | -                                                      | 오버레이 Box에 적용할 CSS 클래스명                                                                                                               |
 | `style`           | `CSSProperties`       | No   | -                                                      | 오버레이 Box에 적용할 인라인 스타일 (기본 스타일과 병합됨)                                                                                       |
+| `sx`              | `SxProps<Theme>`      | No   | -                                                      | MUI의 sx prop을 통한 고급 스타일링 (테마 접근, 반응형 스타일, pseudo-selectors 등 지원)                                                          |
 | `indicator`       | `ReactNode \| string` | No   | -                                                      | 커스텀 인디케이터 컴포넌트 또는 이미지 URL. 문자열이면 이미지로 렌더링되고, ReactNode면 그대로 렌더링됩니다. 기본값은 MUI CircularProgress입니다 |
 | `background`      | `BackgroundConfig`    | No   | `{ show: true, color: "255, 255, 255", opacity: 0.9 }` | 배경 설정 객체 (아래 참조)                                                                                                                       |
 
@@ -143,6 +144,7 @@ interface LoadingProgressProps {
     size?: number;
     className?: string;
     style?: CSSProperties;
+    sx?: SxProps<Theme>;
     indicator?: ReactNode | string;
     background?: BackgroundConfig;
 }
