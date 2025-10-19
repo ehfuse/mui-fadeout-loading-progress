@@ -1,6 +1,6 @@
 {
     "name": "@ehfuse/mui-fadeout-loading-progress",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A React component for Material-UI that provides a smooth fade-out loading indicator with customizable behavior",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -13,6 +13,7 @@
     "scripts": {
         "build": "rollup -c",
         "build:watch": "rollup -c -w",
+        "prepare": "npm run build",
         "prepublishOnly": "npm run build",
         "clean": "rimraf dist"
     },
